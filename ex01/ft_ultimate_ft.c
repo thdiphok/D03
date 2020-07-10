@@ -6,15 +6,32 @@
 /*   By: thdiphok <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/10 08:48:52 by thdiphok          #+#    #+#             */
-/*   Updated: 2020/07/10 08:56:26 by thdiphok         ###   ########.fr       */
+/*   Updated: 2020/07/10 13:01:02 by thdiphok         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <unistd.h>
 #include <stdio.h>
 
-void ft_ultimate_ft.c(int *********nmbr)
+void ft_ultimate(int *********nmbr)
 {	
-	int = j;
-	j = 42;
-	nmbr = &j;
+	int  j= 42;	
+	int *m1;
+	int **m2;
+	int ***m3;
+	int ****m4;
+	int *****m5;
+	int ******m6;
+	int *******m7;
+	int ********m8;
+
+	m1 = &j;
+	m2 = &m1;
+	m3 = &m2;
+	m4 = &m3;
+	m5 = &m4;
+	m6 = &m5;
+	m7 = &m6;
+	m8 = &m7;
+	
+	nmbr = &m8;
 }

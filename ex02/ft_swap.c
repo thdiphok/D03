@@ -6,15 +6,16 @@
 /*   By: thdiphok <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/10 09:42:32 by thdiphok          #+#    #+#             */
-/*   Updated: 2020/07/10 09:54:18 by thdiphok         ###   ########.fr       */
+/*   Updated: 2020/07/10 13:12:38 by thdiphok         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
+#include <stdio.h>
 #include <unistd.h>
 
-void ft_swap.c(int *a, int *b)
+void ft_swap(int *a, int *b)
 {
-	int temp = *a
+	int temp
+		temp= *a
 		*a = *b
 		*b = temp;
 }

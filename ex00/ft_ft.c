@@ -6,20 +6,17 @@
 /*   By: thdiphok <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/09 15:26:03 by thdiphok          #+#    #+#             */
-/*   Updated: 2020/07/10 08:39:20 by thdiphok         ###   ########.fr       */
+/*   Updated: 2020/07/10 11:01:28 by thdiphok         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <unistd.h>
-#include <stdio>
 
-void ft_ft.c(int *nmbr)
+void ft_ft(int *nmbr)
 {
-	int =j;
+	int j;
 	j = 42;
-	nmbr=&j;
+	nmbr= &j;
+
 }
-
-
-	
 
 
